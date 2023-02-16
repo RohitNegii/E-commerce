@@ -34,26 +34,26 @@ body {
     display: flex;
     width: 100%;
     margin-top: 2rem;
-  
-   
+
+
 }
 
 .contact-text {
     width: 40%;
-    margin-left:6.5rem;
+    margin-left: 6.5rem;
 }
 
 .contact-section .contact-map {
     /* height:300px; */
     width: 60%;
-  
+
 }
 
 .contact-map iframe {
     width: 80%;
     height: 100%;
     border: none;
-  
+
 }
 
 .contact-text p {

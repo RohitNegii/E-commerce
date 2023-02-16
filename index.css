@@ -1,234 +1,272 @@
-body{
+body {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
 }
-header{
+
+header {
     position: sticky;
-    top:0;
-    
+    top: 0;
+
 }
 
-nav{
-    width:100%;
-    background-color:rgb(211, 227, 233);
+nav {
+    width: 100%;
+    background-color: rgb(211, 227, 233);
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
     align-items: center;
     /* border-bottom: 1px solid black; */
     z-index: 999;
     overflow: hidden;
-   
+
 }
-.nav-logo{
+
+.nav-logo {
     margin-left: 20px;
-    height:80px;
-    width:140px;
+    height: 80px;
+    width: 140px;
     display: flex;
-    
+
     align-items: center;
-    
-    
+
+
 }
-.nav-logo img{
-   width:100%;
+
+.nav-logo img {
+    width: 100%;
 }
-.nav-ul ul{
-  display: flex;
-  list-style: none;
-  gap:20px;
-  font-size: 1.5rem;
-  margin-right: 70px;
+
+.nav-ul ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    font-size: 1.5rem;
+    margin-right: 70px;
 }
-.nav-ul ul li a{
-    color:black;
+
+.nav-ul ul li a {
+    color: black;
     text-decoration: none;
 }
 
 /* middle 1 start */
-.section-first{
+.section-first {
     width: 100%;
     background-image: url(./images/backgrond_img.png);
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
 }
-.section-first div{
-   margin-left: 12rem;
-   padding-top:8rem;
- 
+
+.section-first div {
+    margin-left: 12rem;
+    padding-top: 8rem;
+
 
 }
-.section-first div h1{
+
+.section-first div h1 {
     font-size: 3rem;
 }
-.section-first div h2{
-    font-size:2rem ;
+
+.section-first div h2 {
+    font-size: 2rem;
 }
-.section-first div p{
+
+.section-first div p {
     font-size: 1.5rem;
 }
-.section-first div button{
+
+.section-first div button {
     font-size: 2rem;
-    border:none;
+    border: none;
     border-radius: 10px;
 }
 
 /* 6boxex */
-.box6{
+.box6 {
     margin-top: 2rem;
     display: flex;
     justify-content: space-evenly;
 }
+
 .box6 .box1 {
-display: flex;
-flex-direction: column;
-align-items: center;
-box-shadow: 0 0 5px 2px  gray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 0 5px 2px gray;
 }
-.box6 .box1 p{
+
+.box6 .box1 p {
     font-weight: 700;
 }
-.f-product{
+
+.f-product {
     text-align: center;
     font-size: 3rem;
     font-weight: 900;
     margin: 4rem 0 1rem 0;
 }
-.smmer-p{
+
+.smmer-p {
     text-align: center;
     font-size: 1.3rem;
     margin: 0;
-    color:rgb(27, 25, 25)
+    color: rgb(27, 25, 25)
 }
+
 /* shirt 8 */
-.shirt{
+.shirt {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
     margin: 3rem 0;
 }
-.sub-shirt{
+
+.sub-shirt {
     width: max-content;
     box-shadow: 0 0 5px gray;
     background-color: rgb(240, 236, 236);
     border-radius: 10px;
 }
-.img-shirt{
-    height:200px;
+
+.img-shirt {
+    height: 200px;
     border-radius: 10px;
-    width:200px;
+    width: 200px;
 }
-.text-shirt{
+
+.text-shirt {
     width: 100%;
-  
+
 }
-.img-shirt img{
-    width:100%;
+
+.img-shirt img {
+    width: 100%;
     border: none;
     border-radius: 10px;
 }
-.text-shirt p{
+
+.text-shirt p {
     font-size: 1.2rem;
-    font-weight: 550;margin: 0;
+    font-weight: 550;
+    margin: 0;
 }
- .right{
-margin-left: 4.5rem;
-font-size: 1.3rem;
-color: rgb(84, 146, 84);
+
+.right {
+    margin-left: 4.5rem;
+    font-size: 1.3rem;
+    color: rgb(84, 146, 84);
 }
- .rate{
-    font-size:1.3rem;
+
+.rate {
+    font-size: 1.3rem;
 }
 
 
-.glass-back{
+.glass-back {
     background-image: url("./images/b2.jpg");
     background-size: cover;
     background-position: center;
-    color:white;
+    color: white;
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
 }
-.glass-back p,h1,button{
-    margin:0.8rem 0px;
+
+.glass-back p,
+h1,
+button {
+    margin: 0.8rem 0px;
     line-height: 2rem;
 }
-.glass-back button{
+
+.glass-back button {
     font-size: 1.3rem;
     border-radius: 3px;
     line-height: 2rem;
 }
-.glass-back button:hover{
+
+.glass-back button:hover {
     background-color: rgb(18, 156, 18);
     color: greenyellow;
 }
 
 /* upcommimg */
-.upcomimg{
-    width:100%;
+.upcomimg {
+    width: 100%;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
 }
-.f-upcoming{
+
+.f-upcoming {
     background-image: url('./images/b17.jpg');
     background-size: cover;
     background-position: center;
-    width:530px;
-    height:50vh;
-   display: flex;
-   align-items: center;
-   color:white
+    width: 530px;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    color: white
 }
-.f-upcoming div{
+
+.f-upcoming div {
     margin: 0 0 0 2rem;
 }
 
-.f-upcoming div p:first-child{
+.f-upcoming div p:first-child {
     font-size: 1.4rem;
     margin: 0;
 }
-.f-upcoming div h1{
+
+.f-upcoming div h1 {
     font-size: 2.3rem;
     font-weight: 900;
     margin: 0;
-    line-height:4rem;
+    line-height: 4rem;
 }
-.f-upcoming div .nth{
+
+.f-upcoming div .nth {
     font-size: 1rem;
     font-weight: 500;
     margin: 0;
     line-height: 2rem;
 }
-.f-upcoming div button{
+
+.f-upcoming div button {
     margin: 0;
     font-size: 1.5rem;
-    color:white;
+    color: white;
     background-color: transparent;
-    border:1px solid white;
+    border: 1px solid white;
 }
-.f-upcoming div button:hover{
+
+.f-upcoming div button:hover {
     background-color: rgb(107, 177, 107);
 }
-.s-upcoming{
+
+.s-upcoming {
     background-image: url('./images/b10.jpg');
 }
-.last-section{
-    width:100%;
+
+.last-section {
+    width: 100%;
     display: flex;
     justify-content: space-evenly;
     margin-top: 3rem;
 }
-.last-section .lss-fdiv{
+
+.last-section .lss-fdiv {
     background-image: url('./images/b7.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
-.ls-fdiv h1{
+
+.ls-fdiv h1 {
     text-transform: uppercase;
     font-size: 2rem;
     color: white;
@@ -236,15 +274,17 @@ color: rgb(84, 146, 84);
     line-height: 5rem;
     margin: 0 2rem;
 }
-.ls-fdiv p{
+
+.ls-fdiv p {
     font-size: 1rem;
-    color:red;
-    font-weight:600;
-  
+    color: red;
+    font-weight: 600;
+
     margin: 0 0 3rem 1rem;
 }
-.ls-sdiv{
-    
+
+.ls-sdiv {
+
     background-image: url('./images/b4.jpg');
     background-position: center;
     background-size: cover;
@@ -252,12 +292,13 @@ color: rgb(84, 146, 84);
 
 
 }
-.last-section .ls-tdiv{
+
+.last-section .ls-tdiv {
     background-image: url('./images/b18.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    
+
 }
 
 
@@ -293,51 +334,61 @@ color: rgb(84, 146, 84);
 }
 
 /* footer start */
-footer{
+footer {
     margin-top: 2.5rem;
     text-transform: capitalize;
 }
-.upper-footer{
+
+.upper-footer {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     list-style: none;
     font-weight: 530;
-   background-color: antiquewhite;
+    background-color: antiquewhite;
 
 }
-.uf-1{
+
+.uf-1 {
     margin-left: 3rem;
 
 }
-.uf-1 li span{
+
+.uf-1 li span {
     font-size: 1rem;
 }
-.uf-1 h2{
+
+.uf-1 h2 {
     margin: 0;
     line-height: 3rem;
 }
-.f-font{
+
+.f-font {
     font-weight: 800;
     font-size: 1rem;
 }
-.uf-1 li a{
+
+.uf-1 li a {
     color: black;
     text-decoration: none;
     font-size: 1rem;
 }
-.uf-1 li{
+
+.uf-1 li {
     margin-top: 1rem;
 }
-.marg{
-     line-height: 3rem;
-     font-size: 1rem;
+
+.marg {
+    line-height: 3rem;
+    font-size: 1rem;
 }
-.bdr{
+
+.bdr {
     border: 1px solid black;
     margin-right: 10px;
 }
-.down-footer{
+
+.down-footer {
     text-align: center;
     font-size: 1.4rem;
     text-transform: uppercase;

@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+  
+}
+.blog-section{
+   margin: 2rem 0 0 15%;
+    display: flex;
+    align-items: center;
+   
+}
+.blog-section-img{
+    background-image: url('./images/lady.jpg');
+width:400px;
+height:250px;
+background-size: cover;
+background-position: center;
+}
+.blog-section-text{
+    width:40rem;
+    margin-left: 2rem;
+}
+.blog-section-text h2{
+    font-size: 2rem;
+    line-height: 3rem;
+}
+.blog-section-text p{
+    font-size: 1.2rem;
+   
+}
+.blog-section-text h3{
+    font-size: 1.3rem;
+    line-height: 3rem;
+}
+/* about start hear */
+.about-section{
+    display: flex;
+    margin: 2rem 0 0 8rem;
+    align-items: center;
+}
+.about-section-img{
+    background-image: url('./images/a6.jpg');
+    width:400px;
+    height:250px;
+    background-position: center;
+    background-size: cover;
+}
+.about-section-text{
+    width:40rem;
+    margin-left: 2rem;
+
+}
+.about-section-text h1{
+    font-size: 2rem;
+    line-height: 3rem;
+}
+.about-section-text p{
+    font-size: 1.3rem;
+
+}
