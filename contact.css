@@ -1,0 +1,192 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: whitesmoke;
+}
+
+.contact-img {
+    width: 100%;
+    height: 300px;
+    background-image: url("./images/banner.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contact-img h1 {
+    color: white;
+    font-size: 3rem;
+}
+
+.contact-img p {
+    color: white;
+    font-size: 1.5rem;
+}
+
+/* map starting */
+
+.contact-section {
+    display: flex;
+    width: 100%;
+    margin-top: 2rem;
+  
+   
+}
+
+.contact-text {
+    width: 40%;
+    margin-left:6.5rem;
+}
+
+.contact-section .contact-map {
+    /* height:300px; */
+    width: 60%;
+  
+}
+
+.contact-map iframe {
+    width: 80%;
+    height: 100%;
+    border: none;
+  
+}
+
+.contact-text p {
+    font-size: 1.5rem;
+}
+
+.contact-text h1 {
+    font-size: 2rem;
+}
+
+.contact-text h2 {
+    font-size: 1.7rem;
+    font-weight: 400;
+}
+
+.contact-text ul {
+    list-style: none;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.contact-text ul li {
+    margin-top: 5px;
+}
+
+.frm-section {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin: 4rem auto;
+}
+
+.frm {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+
+}
+
+.frm h3 {
+    font-size: 1.5rem;
+    margin: 2rem 5px 0px 0px;
+}
+
+.frm h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+.frm form {
+    display: flex;
+    flex-direction: column;
+}
+
+.frm form input {
+    height: 2rem;
+    margin-top: 1rem;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+.frm form button {
+    height: 2rem;
+    width: 7rem;
+    background-color: rgb(44, 165, 44);
+    font-weight: 700;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    color: white;
+    border-radius: 10px;
+    border: none;
+}
+
+.frm form textarea {
+    margin-top: 1rem;
+    height: 5rem;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+.member {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.first-mem {
+    display: flex;
+    justify-content: space-between;
+}
+
+.first-mem p {
+    margin: 0;
+}
+
+.info {
+    margin-left: 6px;
+}
+
+.first-mem h4 {
+
+    margin: 3px 0px 2px 0px;
+}
+
+.signup {
+    width: 100%;
+    background: url("./images/b2.jpg");
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.signup .flex {
+    margin: 1.3rem 0rem;
+}
+
+.signup-mail input {
+    height: 40px;
+    width: 300px;
+}
+
+.signup-mail button {
+    height: 43px;
+    width: 80px;
+    margin-left: -5px;
+    background-color: lightgreen;
+    color: white;
+    font-size: 1.1rem;
+    border: none;
+    font-weight: 600;
+}
