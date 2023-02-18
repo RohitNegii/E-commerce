@@ -89,6 +89,7 @@ nav {
     margin-top: 2rem;
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 .box6 .box1 {
@@ -205,6 +206,7 @@ button {
 .f-upcoming {
     background-image: url('./images/b17.jpg');
     background-size: cover;
+  
     background-position: center;
     width: 530px;
     height: 50vh;
@@ -250,6 +252,7 @@ button {
 
 .s-upcoming {
     background-image: url('./images/b10.jpg');
+ 
 }
 
 .last-section {
@@ -264,6 +267,7 @@ button {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    border-radius: 25% 10%;
 }
 
 .ls-fdiv h1 {
@@ -289,6 +293,7 @@ button {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    border-radius: 25% 10%;
 
 
 }
@@ -298,6 +303,7 @@ button {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    border-radius: 25% 10%;
 
 }
 
@@ -393,4 +399,126 @@ footer {
     font-size: 1.4rem;
     text-transform: uppercase;
     background-color: antiquewhite;
+}
+@media screen and (max-width:500px) {
+    .upper-footer{
+     flex-direction: column;
+     align-items: center;
+        
+    }
+    .uf-1{
+      
+        margin-top: 2rem;
+        
+    }
+    .scr{
+        width:200px;
+    }
+    .uf-1 li a{
+        font-size: 1.4rem;
+    }
+    .uf-1 li .f-font{
+        font-size: 1.4rem;
+    }
+    .mrg{
+        margin: 2rem 0 0 0;
+    }
+    .mrg2{
+        margin: 2rem 0 0 7rem;
+    
+      
+    }
+    .marg{
+        font-size: 1.4rem;
+    }
+
+
+    .signup{
+        flex-direction: column;
+    }
+    .signup .flex span{
+        font-size: 1.4rem;
+    }
+    
+
+
+    .last-section{
+        flex-direction: column;
+    }
+    .ls-fdiv{
+        margin-top: 1rem;
+    }
+
+
+    .f-upcoming{
+        width: 100%;
+        height:20rem;
+        margin-top: 1rem;
+    }
+    .sub-shirt{
+        margin-top: 0.5rem;
+    }
+ 
+    .img-shirt{
+        width:18rem;
+        height: max-content;
+    }
+
+    .box1{
+        margin: 0.5rem;
+    }
+
+    .section-first{
+        height: max-content;
+        background-position: center;
+    }
+
+    .section-first div{
+        margin-left: 0;
+        padding-top: 3rem;
+    }
+
+    header nav ul li{
+        display: none;
+    }
+
+    /* blog*/
+    /* .blog-section{
+        flex-direction: column;
+        width: 100vw;
+        margin-left: -10rem;
+      
+       justify-content: flex-start;
+        background-color: red;
+    }
+    .blog-section-text{
+        background-color: aqua;
+        width:500px;
+        margin:0px;
+        font-size: 1.4rem;
+    }
+    .blog-section-img{
+        margin-left: 0;
+    }
+    .blog-section-text h3,p,h2{
+        width: 500px;
+    } */
+
+    /* about */
+    /* .about-section{
+        width:100%;
+        flex-direction: column;
+        margin-left: -30rem;
+    }
+    .about-section-img{
+        width: 200px;
+
+    }
+    .about-section-text{
+        width:100%;
+        margin:0;
+        height: max-content;
+    }
+
+   */
 }

@@ -10,6 +10,7 @@
     <script src="https://kit.fontawesome.com/820603f8eb.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="shop.css">
     <link rel="stylesheet" href="contact.css">
+    <script src="index.js"></script>
 
 </head>
 
@@ -26,7 +27,7 @@
                     <li><a href="blog.html">Blog</a></li>
                     <li><a href="about.html">About</a></li>
                     <li><a href="contact.html">Contact</a></li>
-                    <li><a href="#"><i class="fa-solid fa-cart-shopping"></i></a></li>
+                    <li onclick="show()"><i class="fa-solid fa-cart-shopping"></i></li>
                 </ul>
             </div>
         </nav>
@@ -36,6 +37,10 @@
         <h1>#stay home</h1>
         <p>Save more with coupn & upto 70% off </p>
     </div>
+    <div class="cart">
+        
+       
+    </div>
 
 
 
@@ -43,7 +48,7 @@
     <!-- shirt 8 -->
 
     <section class="shirt">
-        <div class="sub-shirt">
+        <div class="sub-shirt" >
             <div class="img-shirt">
                 <img src="./images/f1.jpg">
             </div>
@@ -54,7 +59,7 @@
                 <span style="color:yellow"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
                         class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
                         class="fa-solid fa-star"></i></span>
-                <span class="right"><i class="fa-solid fa-cart-shopping"></i></span><br>
+                <span class="right" onclick="add(1)"><i class="fa-solid fa-cart-shopping"></i></span><br>
                 <span class="rate">500Rs</span>
 
             </div>
@@ -70,7 +75,7 @@
                 <span style="color:yellow"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
                         class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
                         class="fa-solid fa-star"></i></span>
-                <span class="right"><i class="fa-solid fa-cart-shopping"></i></span><br>
+                <span class="right" onclick="add(2)"><i class="fa-solid fa-cart-shopping"></i></span><br>
                 <span class="rate">500Rs</span>
 
             </div>
@@ -86,7 +91,7 @@
                 <span style="color:yellow"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
                         class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
                         class="fa-solid fa-star"></i></span>
-                <span class="right"><i class="fa-solid fa-cart-shopping"></i></span><br>
+                <span class="right" onclick="add(3)"><i class="fa-solid fa-cart-shopping"></i></span><br>
                 <span class="rate">500Rs</span>
 
             </div>
@@ -329,7 +334,7 @@
 
     <footer>
         <div class="upper-footer">
-            <div class="uf-1">
+            <div class="uf-1 scr">
 
                 <img src="./images/logo.png">
                 <h2>Contact</h2>
@@ -356,7 +361,7 @@
                 <li><a href="contact.html">Contact us</a></li>
 
             </div>
-            <div class="uf-1">
+            <div class="uf-1 mrg">
                 <h2>My Account</h2>
                 <li><a href="#">Sign in </a></li>
                 <li><a href="#">view cart</a></li>
@@ -366,7 +371,7 @@
 
 
             </div>
-            <div class="uf-1">
+            <div class="uf-1 mrg2">
                 <h2>Install App</h2>
                 <span class="marg">from app store or google play</span><br>
                 <img src="./images/play.jpg" class="bdr"><img src="./images/app.jpg" class="bdr"><br>
