@@ -194,3 +194,44 @@ body {
     font-weight: 600;
 
 }
+@media screen and (max-width:500px) {
+    .contact-section{
+        flex-direction: column-reverse;
+      justify-content:flex-start
+    }
+    .contact-map iframe{
+        width:100vw;
+        
+    }
+    .contact-text {
+        width:100vw;
+        margin: 0;
+    }
+    .contact-text ul{
+        margin-top: 2rem;
+      
+       width:100vw;
+    }
+    .frm-section{
+        width:100vw;
+    }
+    .frm{
+        width:100vw;
+    }
+    .frm form{
+        text-align: center;
+    }
+    .frm input,textarea{
+        width:80vw;
+        margin-left: 3rem;
+    }
+    .frm textarea{
+        margin-left: 3rem;
+    }
+    .frm form  button{
+        margin-left: 3rem;
+    }
+    .first-mem{
+        margin-top: 2rem;
+    }
+}

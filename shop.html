@@ -11,12 +11,14 @@
     <link rel="stylesheet" href="shop.css">
     <link rel="stylesheet" href="contact.css">
     <script src="index.js"></script>
+    <link rel="stylesheet" href=" https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 
 </head>
 
 <body>
     <header>
-        <nav>
+        <!-- <nav>
             <div class="nav-logo">
                 <img src="./images/logo.png">
             </div>
@@ -27,10 +29,42 @@
                     <li><a href="blog.html">Blog</a></li>
                     <li><a href="about.html">About</a></li>
                     <li><a href="contact.html">Contact</a></li>
-                    <li onclick="show()"><i class="fa-solid fa-cart-shopping"></i></li>
+                    <li ><i class="fa-solid fa-cart-shopping" onclick="show()"></i></li>
                 </ul>
             </div>
-        </nav>
+        </nav> -->
+
+
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <div class="nav-logo">
+                    <img src="./images/logo.png">
+                </div>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+               
+                
+                    <ul class="d-flex nav-ul">
+                        <ul>
+                        <li class="dropdown-item"><a href="index.html">Home</a></li>
+                       
+                        <li class="dropdown-item" ><a href="shop.html">Shop</a></li>
+                        <li  class="dropdown-item"><a href="blog.html">Blog</a></li>
+                        <li  class="dropdown-item"> <a href="about.html">About</a></li>
+                        <li  class="dropdown-item"><a href="contact.html">Contact</a></li>
+                        <li onclick="show()"><a href="#"><i class="fa-solid fa-cart-shopping"></i></a></li> 
+
+                    </ul>
+                    </ul>
+                 
+                
+              </div>
+            </div>
+          </nav>
+
+        
     </header>
 
     <div class="contact-img " style="  background-image: url('./images/b1.jpg');">
@@ -40,7 +74,7 @@
     <div class="cart">
      
         
-     <button onclick="dell()">delete</button>  
+     <!-- <button onclick="dell()">delete</button>   -->
     </div>
 
 
@@ -354,7 +388,7 @@
             </div>
 
             <div class="uf-1">
-                <h2>About</h2>
+                <h2 style="font-weight:800;">About</h2>
                 <li><a href="#">About us</a></li>
                 <li><a href="#">Dileavery information</a></li>
                 <li><a href="#">privacy policy</a></li>
@@ -363,7 +397,7 @@
 
             </div>
             <div class="uf-1 mrg">
-                <h2>My Account</h2>
+                <h2 style="font-weight:800;">My Account</h2>
                 <li><a href="#">Sign in </a></li>
                 <li><a href="#">view cart</a></li>
                 <li><a href="#">my wishlist</a></li>
@@ -373,7 +407,7 @@
 
             </div>
             <div class="uf-1 mrg2">
-                <h2>Install App</h2>
+                <h2 style="font-weight:800;">Install App</h2>
                 <span class="marg">from app store or google play</span><br>
                 <img src="./images/play.jpg" class="bdr"><img src="./images/app.jpg" class="bdr"><br>
                 <span class="marg">secured payment gateway</span><br>

@@ -29,18 +29,23 @@
 }
 .cart{
    
-    width:400px;
+    width:max-content;
     height: 400px;
-    background-image: url('./images/cartimg.jpg');
+    /* background-image: url('./images/cartimg.jpg'); */
+   background-color: antiquewhite;
+    /* background-color: transparent; */
     position: absolute;
     top:100px;
     right: 0px;
-   visibility: hidden;
+   display: none;
+ 
    background-position: center;
    background-repeat: no-repeat;
    background-size: cover;
    position: fixed;
    overflow: scroll;
+   font-weight: 900;
+   
 }
 .cart li{
     list-style: none;
