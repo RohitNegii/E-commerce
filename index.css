@@ -490,7 +490,7 @@ footer {
         padding-top: 3rem;
     }
     .nav-ul ul{
-        gap:1rem;
+        gap:0.5rem;
         font-size: 1.2rem;
     }
     #navbarSupportedContent{
