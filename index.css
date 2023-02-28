@@ -7,6 +7,7 @@ body {
 header {
     position: sticky;
     top: 0;
+    z-index: 999;
 
 }
 
@@ -108,6 +109,9 @@ justify-content: flex-end;
     flex-direction: column;
     align-items: center;
     box-shadow: 0 0 5px 2px gray;
+}
+.box1:hover{
+    box-shadow: 0 0 9px 3px rgb(82, 80, 80);
 }
 
 .box6 .box1 p {
@@ -411,6 +415,38 @@ footer {
     font-size: 1.4rem;
     text-transform: uppercase;
     background-color: antiquewhite;
+}
+.f-upcoming:hover{
+    box-shadow: 0 0 9px 3px rgb(82, 80, 80);
+}
+.ls-fdiv:hover{
+    box-shadow: 0 0 9px 3px rgb(82, 80, 80);
+}
+.nav-ul ul li a{
+    position: relative;
+}
+
+.nav-ul ul li a:after{
+    content: "";
+    position: absolute;
+    width: 0;
+    height:3px;
+    background-color: green;
+    left:0;
+    bottom:-4px;
+    transition: 0.3s;
+}
+.nav-ul ul li a:hover{
+    font-weight: 500;
+}
+.nav-ul ul li a:hover:after{
+width:100%;
+}
+.sub-shirt:hover{
+   transform: scaleX(1.2);
+   box-shadow: 0 0 9px 3px rgb(82, 80, 80);
+  transition: 0.3s;
+
 }
 @media screen and (max-width:500px) {
     .upper-footer{
