@@ -188,10 +188,21 @@ function show() {
     document.getElementsByClassName("cart")[0].style="opacity:0"
     console.log("chls")
    }
-
-    
-
 }
+function shopShow(){
+  let second= document.getElementsByClassName('main')[1]
+  second.style.display='flex'
+//   second.style='flex-direction: column'
+  let first= document.getElementsByClassName('main')[0]
+  first.style.display='none'
+}
+function shopShow1(){
+    let first= document.getElementsByClassName('main')[0]
+    first.style.display='flex'
+    first.style='flex-direction: column'
+    let second= document.getElementsByClassName('main')[1]
+    second.style.display='none'
+  }
 // function dell(ev) {
 //     // let a = document.getElementsByClassName('run-btn')
 //     // for (j = 0; j < a.length; j++) {

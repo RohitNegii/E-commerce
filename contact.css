@@ -212,26 +212,35 @@ body {
       
        width:100vw;
     }
+    .contact-text h1,p,h2{
+        margin-left: 1rem;
+    }
     .frm-section{
-        width:100vw;
+        width:90vw;
     }
     .frm{
-        width:100vw;
+        width:90vw;
     }
     .frm form{
         text-align: center;
     }
     .frm input,textarea{
         width:80vw;
-        margin-left: 3rem;
+        margin-left: 1rem;
     }
     .frm textarea{
-        margin-left: 3rem;
+        margin-left: 1rem;
     }
     .frm form  button{
-        margin-left: 3rem;
+        margin-left: 1rem;
     }
     .first-mem{
         margin-top: 2rem;
+    }
+    .frm h3{
+        margin-left: 1rem;
+    }
+    .frm h1{
+        margin-left: 1rem;
     }
 }
