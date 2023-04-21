@@ -1,599 +1,567 @@
 body {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
 
 header {
-    position: sticky;
-    top: 0;
-    z-index: 999;
-
+  position: sticky;
+  top: 0;
+  z-index: 999;
 }
 
 nav {
-    width: 100%;
-    background-color: rgb(211, 227, 233);
-   
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: red;
-    /* border-bottom: 1px solid black; */
-    /* z-index: 999; */
-    
+  width: 100%;
+  background-color: rgb(211, 227, 233);
 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: red;
+  /* border-bottom: 1px solid black; */
+  /* z-index: 999; */
 }
+
 /* .container-fluid{
 
     justify-content: space-between;
 } */
- .collapse {
-justify-content: flex-end;
+.collapse {
+  justify-content: flex-end;
 }
-               
-                
-                    
+
 .nav-logo {
-    margin-left: 20px;
-    /* height: 80px; */
-    width: 140px;
-    display: flex;
-
-    align-items: center;
-
-
+  margin-left: 20px;
+  /* height: 80px; */
+  width: 140px;
+  display: flex;
+  align-items: center;
 }
 
 .nav-logo img {
-    width: 100%;
+  width: 100%;
 }
 
 .nav-ul ul {
-    display: flex;
-    list-style: none;
-    gap: 2rem;
-    font-size: 1.5rem;
-    margin-right: 70px;
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+  font-size: 1.5rem;
+  margin-right: 70px;
 }
 
 .nav-ul ul li a {
-    color: black;
-    text-decoration: none;
+  color: black;
+  text-decoration: none;
 }
 
 /* middle 1 start */
 .section-first {
-    width: 100%;
-    background-image: url(./images/backgrond_img.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
+  width: 100%;
+  background-image: url(./images/backgrond_img.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
 }
 
 .section-first div {
-    margin-left: 12rem;
-    padding-top: 8rem;
-
-
+  margin-left: 12rem;
+  padding-top: 8rem;
 }
 
 .section-first div h1 {
-    font-size: 3rem;
+  font-size: 3rem;
 }
 
 .section-first div h2 {
-    font-size: 2rem;
+  font-size: 2rem;
 }
 
 .section-first div p {
-    font-size: 1.5rem;
+  font-size: 1.5rem;
 }
 
 .section-first div button {
-    font-size: 2rem;
-    border: none;
-    border-radius: 10px;
+  font-size: 2rem;
+  border: none;
+  border-radius: 10px;
 }
 
 /* 6boxex */
 .box6 {
-    margin-top: 2rem;
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
 .box6 .box1 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    box-shadow: 0 0 5px 2px gray;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 0 5px 2px gray;
 }
-.box1:hover{
-    box-shadow: 0 0 9px 3px rgb(82, 80, 80);
+.box1:hover {
+  box-shadow: 0 0 9px 3px rgb(82, 80, 80);
 }
 
 .box6 .box1 p {
-    font-weight: 700;
+  font-weight: 700;
 }
 
 .f-product {
-    text-align: center;
-    font-size: 3rem;
-    font-weight: 900;
-    margin: 4rem 0 1rem 0;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 900;
+  margin: 4rem 0 1rem 0;
 }
 
 .smmer-p {
-    text-align: center;
-    font-size: 1.3rem;
-    margin: 0;
-    color: rgb(27, 25, 25)
+  text-align: center;
+  font-size: 1.3rem;
+  margin: 0;
+  color: rgb(27, 25, 25);
 }
 
 /* shirt 8 */
 .shirt {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    margin: 3rem 0;
-    
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 3rem 0;
 }
 
 .sub-shirt {
-    width: max-content;
-    box-shadow: 0 0 5px gray;
-    background-color: rgb(240, 236, 236);
-    border-radius: 10px;
+  width: max-content;
+  box-shadow: 0 0 5px gray;
+  background-color: rgb(240, 236, 236);
+  border-radius: 10px;
+  transition: 1s all linear;
 }
 
 .img-shirt {
-    height: 200px;
-    border-radius: 10px;
-    width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  width: 200px;
+}
+.cart {
+  z-index: 99;
 }
 
 .text-shirt {
-    width: 100%;
-
+  width: 100%;
 }
 
 .img-shirt img {
-    width: 100%;
-    border: none;
-    border-radius: 10px;
+  width: 100%;
+  border: none;
+  border-radius: 10px;
 }
 
 .text-shirt p {
-    font-size: 1.2rem;
-    font-weight: 550;
-    margin: 0;
+  font-size: 1.2rem;
+  font-weight: 550;
+  margin: 0;
 }
 
 .right {
-    margin-left: 4.5rem;
-    font-size: 1.3rem;
-    color: rgb(84, 146, 84);
+  margin-left: 4.5rem;
+  font-size: 1.3rem;
+  color: rgb(84, 146, 84);
 }
 
 .rate {
-    font-size: 1.3rem;
+  font-size: 1.3rem;
 }
 
-
 .glass-back {
-    background-image: url("./images/b2.jpg");
-    background-size: cover;
-    background-position: center;
-    color: white;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
+  background-image: url("./images/b2.jpg");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 .glass-back p,
 h1,
 button {
-    margin: 0.8rem 0px;
-    line-height: 2rem;
+  margin: 0.8rem 0px;
+  line-height: 2rem;
 }
 
 .glass-back button {
-    font-size: 1.3rem;
-    border-radius: 3px;
-    line-height: 2rem;
+  font-size: 1.3rem;
+  border-radius: 3px;
+  line-height: 2rem;
 }
 
 .glass-back button:hover {
-    background-color: rgb(18, 156, 18);
-    color: greenyellow;
+  background-color: rgb(18, 156, 18);
+  color: greenyellow;
 }
 
 /* upcommimg */
 .upcomimg {
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .f-upcoming {
-    background-image: url('./images/b17.jpg');
-    background-size: cover;
-  
-    background-position: center;
-    width: 530px;
-    height: 50vh;
-    display: flex;
-    align-items: center;
-    color: white
+  background-image: url("./images/b17.jpg");
+  background-size: cover;
+
+  background-position: center;
+  width: 530px;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  color: white;
 }
 
 .f-upcoming div {
-    margin: 0 0 0 2rem;
+  margin: 0 0 0 2rem;
 }
 
 .f-upcoming div p:first-child {
-    font-size: 1.4rem;
-    margin: 0;
+  font-size: 1.4rem;
+  margin: 0;
 }
 
 .f-upcoming div h1 {
-    font-size: 2.3rem;
-    font-weight: 900;
-    margin: 0;
-    line-height: 4rem;
+  font-size: 2.3rem;
+  font-weight: 900;
+  margin: 0;
+  line-height: 4rem;
 }
 
 .f-upcoming div .nth {
-    font-size: 1rem;
-    font-weight: 500;
-    margin: 0;
-    line-height: 2rem;
+  font-size: 1rem;
+  font-weight: 500;
+  margin: 0;
+  line-height: 2rem;
 }
 
 .f-upcoming div button {
-    margin: 0;
-    font-size: 1.5rem;
-    color: white;
-    background-color: transparent;
-    border: 1px solid white;
+  margin: 0;
+  font-size: 1.5rem;
+  color: white;
+  background-color: transparent;
+  border: 1px solid white;
 }
 
 .f-upcoming div button:hover {
-    background-color: rgb(107, 177, 107);
+  background-color: rgb(107, 177, 107);
 }
 
 .s-upcoming {
-    background-image: url('./images/b10.jpg');
- 
+  background-image: url("./images/b10.jpg");
 }
 
 .last-section {
-    width: 100%;
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: 3rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 3rem;
 }
 
 .last-section .lss-fdiv {
-    background-image: url('./images/b7.jpg');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    border-radius: 25% 10%;
+  background-image: url("./images/b7.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 25% 10%;
 }
 
 .ls-fdiv h1 {
-    text-transform: uppercase;
-    font-size: 2rem;
-    color: white;
-    font-weight: 900;
-    line-height: 5rem;
-    margin: 0 2rem;
+  text-transform: uppercase;
+  font-size: 2rem;
+  color: white;
+  font-weight: 900;
+  line-height: 5rem;
+  margin: 0 2rem;
 }
 
 .ls-fdiv p {
-    font-size: 1rem;
-    color: red;
-    font-weight: 600;
+  font-size: 1rem;
+  color: red;
+  font-weight: 600;
 
-    margin: 0 0 3rem 1rem;
+  margin: 0 0 3rem 1rem;
 }
 
 .ls-sdiv {
-
-    background-image: url('./images/b4.jpg');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    border-radius: 25% 10%;
-
-
+  background-image: url("./images/b4.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 25% 10%;
 }
 
 .last-section .ls-tdiv {
-    background-image: url('./images/b18.jpg');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    border-radius: 25% 10%;
-
+  background-image: url("./images/b18.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 25% 10%;
 }
 
-
 .signup {
-    width: 100%;
-    background: url("./images/b2.jpg");
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    margin-top: 2rem;
-
+  width: 100%;
+  background: url("./images/b2.jpg");
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 2rem;
 }
 
 .signup .flex {
-    margin: 1.3rem 0rem;
+  margin: 1.3rem 0rem;
 }
 
 .signup-mail input {
-    height: 40px;
-    width: 300px;
+  height: 40px;
+  width: 300px;
 }
 
 .signup-mail button {
-    height: 43px;
-    width: 80px;
-    margin-left: -5px;
-    background-color: lightgreen;
-    color: white;
-    font-size: 1.1rem;
-    border: none;
-    font-weight: 600;
+  height: 43px;
+  width: 80px;
+  margin-left: -5px;
+  background-color: lightgreen;
+  color: white;
+  font-size: 1.1rem;
+  border: none;
+  font-weight: 600;
 }
 
 /* footer start */
 footer {
-    margin-top: 2.5rem;
-    text-transform: capitalize;
+  margin-top: 2.5rem;
+  text-transform: capitalize;
 }
 
 .upper-footer {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    list-style: none;
-    font-weight: 530;
-    background-color: antiquewhite;
-
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  list-style: none;
+  font-weight: 530;
+  background-color: antiquewhite;
 }
 
 .uf-1 {
-    margin-left: 3rem;
-
+  margin-left: 3rem;
 }
 
 .uf-1 li span {
-    font-size: 1rem;
+  font-size: 1rem;
 }
 
 .uf-1 h2 {
-    margin: 0;
-    line-height: 3rem;
-    font-weight: 800;
+  margin: 0;
+  line-height: 3rem;
+  font-weight: 800;
 }
 
 .f-font {
-    font-weight: 800;
-    font-size: 1rem;
+  font-weight: 800;
+  font-size: 1rem;
 }
 
 .uf-1 li a {
-    color: black;
-    text-decoration: none;
-    font-size: 1rem;
+  color: black;
+  text-decoration: none;
+  font-size: 1rem;
 }
 
 .uf-1 li {
-    margin-top: 1rem;
+  margin-top: 1rem;
 }
 
 .marg {
-    line-height: 3rem;
-    font-size: 1rem;
+  line-height: 3rem;
+  font-size: 1rem;
 }
 
 .bdr {
-    border: 1px solid black;
-    margin-right: 10px;
+  border: 1px solid black;
+  margin-right: 10px;
 }
 
 .down-footer {
-    text-align: center;
-    font-size: 1.4rem;
-    text-transform: uppercase;
-    background-color: antiquewhite;
+  text-align: center;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  background-color: antiquewhite;
 }
-.f-upcoming:hover{
-    box-shadow: 0 0 9px 3px rgb(82, 80, 80);
+.f-upcoming:hover {
+  box-shadow: 0 0 9px 3px rgb(82, 80, 80);
 }
-.ls-fdiv:hover{
-    box-shadow: 0 0 9px 3px rgb(82, 80, 80);
+.ls-fdiv:hover {
+  box-shadow: 0 0 9px 3px rgb(82, 80, 80);
 }
-.nav-ul ul li a{
-    position: relative;
+.nav-ul ul li a {
+  position: relative;
 }
 
-.nav-ul ul li a:after{
-    content: "";
-    position: absolute;
-    width: 0;
-    height:3px;
-    background-color: green;
-    left:0;
-    bottom:-4px;
-    transition: 0.3s;
+.nav-ul ul li a:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 3px;
+  background-color: green;
+  left: 0;
+  bottom: -4px;
+  transition: 0.3s;
 }
-.nav-ul ul li a:hover{
-    font-weight: 500;
+.nav-ul ul li a:hover {
+  font-weight: 500;
 }
-.nav-ul ul li a:hover:after{
-width:100%;
+.nav-ul ul li a:hover:after {
+  width: 100%;
 }
-.sub-shirt:hover{
-   transform: scaleX(1.2);
-   box-shadow: 0 0 9px 3px rgb(82, 80, 80);
-  transition: 0.5s;
-
+.sub-shirt:hover {
+  transform: scaleX(1.2);
+  box-shadow: 0 0 9px 3px rgb(82, 80, 80);
 }
 /* hide show shop */
-.hide{
-    display: none;
-    flex-direction: column;
+.hide {
+  display: none;
+  flex-direction: column;
 }
-@media screen and (max-width:500px) {
-    
-   .section-first div h1{
+@media screen and (max-width: 500px) {
+  .section-first div h1 {
     font-size: 1.4rem;
-   }
-   .section-first div button{
+  }
+  .section-first div button {
     margin-bottom: 3rem;
-   }
-   .f-product{
+  }
+  .f-product {
     font-weight: 600;
-   }
-   .glass-back button{
+  }
+  .glass-back button {
     margin-bottom: 2rem;
-   }
-   .glass-back  h1{
+  }
+  .glass-back h1 {
     text-align: center;
-   }
-   .signup-mail{
-    margin-bottom:  2rem;
-   }
-   .flex{
+  }
+  .signup-mail {
+    margin-bottom: 2rem;
+  }
+  .flex {
     text-align: center;
-   }
-   
+  }
 
+  .upper-footer {
+    flex-direction: column;
+    align-items: center;
+  }
+  .uf-1 {
+    margin-top: 2rem;
+  }
+  .scr {
+    width: 200px;
+  }
+  .uf-1 li a {
+    font-size: 1.2rem;
+  }
+  .uf-1 li .f-font {
+    font-size: 1.4rem;
+  }
+  .mrg {
+    margin: 2rem 0 0 0;
+  }
+  .mrg2 {
+    margin: 2rem 0 0 7rem;
+  }
+  .marg {
+    font-size: 1.2rem;
+  }
 
+  .signup {
+    flex-direction: column;
+  }
+  .signup .flex span {
+    font-size: 1.4rem;
+  }
 
+  .last-section {
+    flex-direction: column;
+  }
+  .ls-fdiv {
+    margin-top: 1rem;
+  }
 
-    .upper-footer{
-     flex-direction: column;
-     align-items: center;
-        
-    }
-    .uf-1{
-      
-        margin-top: 2rem;
-        
-    }
-    .scr{
-        width:200px;
-    }
-    .uf-1 li a{
-        font-size: 1.2rem;
-    }
-    .uf-1 li .f-font{
-        font-size: 1.4rem;
-    }
-    .mrg{
-        margin: 2rem 0 0 0;
-    }
-    .mrg2{
-        margin: 2rem 0 0 7rem;
-    
-      
-    }
-    .marg{
-        font-size: 1.2rem;
-    }
+  .f-upcoming {
+    width: 100%;
+    height: 20rem;
+    margin-top: 1rem;
+  }
+  .sub-shirt {
+    margin-top: 0.5rem;
+  }
 
+  .img-shirt {
+    width: 18rem;
+    height: max-content;
+  }
 
-    .signup{
-        flex-direction: column;
-    }
-    .signup .flex span{
-        font-size: 1.4rem;
-    }
-    
+  .box1 {
+    margin: 0.5rem;
+  }
 
+  .section-first {
+    height: max-content;
+    background-position: center;
+  }
 
-    .last-section{
-        flex-direction: column;
-    }
-    .ls-fdiv{
-        margin-top: 1rem;
-    }
+  .section-first div {
+    margin-left: 0;
+    padding-top: 3rem;
+  }
+  .nav-ul ul {
+    gap: 0.5rem;
+    font-size: 1.2rem;
+  }
+  #navbarSupportedContent {
+    padding: 0;
+  }
+  .nav-ul ul {
+    margin: 0;
+  }
+  .down-footer {
+    font-weight: 800;
+  }
+  .right {
+    float: right;
+    padding-right: 1rem;
+  }
+  .text-shirt p,
+  span {
+    padding-left: 0.7rem;
+  }
+  .about-section {
+    margin: 1rem;
+  }
+  .about-section-text {
+    margin: 1rem;
+  }
+  .blog-section {
+    margin: 0;
+  }
 
-
-    .f-upcoming{
-        width: 100%;
-        height:20rem;
-        margin-top: 1rem;
-    }
-    .sub-shirt{
-        margin-top: 0.5rem;
-    }
- 
-    .img-shirt{
-        width:18rem;
-        height: max-content;
-    }
-
-    .box1{
-        margin: 0.5rem;
-    }
-
-    .section-first{
-        height: max-content;
-        background-position: center;
-    }
-
-    .section-first div{
-        margin-left: 0;
-        padding-top: 3rem;
-    }
-    .nav-ul ul{
-        gap:0.5rem;
-        font-size: 1.2rem;
-    }
-    #navbarSupportedContent{
-        padding: 0;
-    }
-    .nav-ul ul{
-        margin:0
-    }
-    .down-footer{
-        font-weight: 800;
-    }
-    .right{
-        float: right;
-        padding-right: 1rem;
-    }
-    .text-shirt p,span{
-        padding-left: 0.7rem;
-    }
-    .about-section{
-        margin: 1rem;
-    }
-    .about-section-text{
-        margin: 1rem;
-    }
-    .blog-section{
-        margin: 0;
-    }
-
-    /* header nav ul li{
+  /* header nav ul li{
         display: none;
     } */
 
-    /* blog*/
-    /* .blog-section{
+  /* blog*/
+  /* .blog-section{
         flex-direction: column;
         width: 100vw;
         margin-left: -10rem;
@@ -614,8 +582,8 @@ width:100%;
         width: 500px;
     } */
 
-    /* about */
-    /* .about-section{
+  /* about */
+  /* .about-section{
         width:100%;
         flex-direction: column;
         margin-left: -30rem;

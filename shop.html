@@ -1,24 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="index.css">
-    <script src="https://kit.fontawesome.com/820603f8eb.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="shop.css">
-    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="index.css" />
+    <script
+      src="https://kit.fontawesome.com/820603f8eb.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="shop.css" />
+    <link rel="stylesheet" href="contact.css" />
     <script src="index.js"></script>
-    <link rel="stylesheet" href=" https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    <link
+      rel="stylesheet"
+      href=" https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+    />
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+  </head>
 
-</head>
-
-<body>
+  <body>
     <header>
-        <!-- <nav>
+      <!-- <nav>
             <div class="nav-logo">
                 <img src="./images/logo.png">
             </div>
@@ -34,669 +38,755 @@
             </div>
         </nav> -->
 
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <div class="nav-logo">
+            <img src="./images/logo.png" />
+          </div>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="d-flex nav-ul">
+              <ul>
+                <li class="dropdown-item"><a href="index.html">Home</a></li>
 
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container-fluid">
-                <div class="nav-logo">
-                    <img src="./images/logo.png">
-                </div>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-               
-                
-                    <ul class="d-flex nav-ul">
-                        <ul>
-                        <li class="dropdown-item"><a href="index.html">Home</a></li>
-                       
-                        <li class="dropdown-item" ><a href="shop.html">Shop</a></li>
-                        <li  class="dropdown-item"><a href="blog.html">Blog</a></li>
-                        <li  class="dropdown-item"> <a href="about.html">About</a></li>
-                        <li  class="dropdown-item"><a href="contact.html">Contact</a></li>
-                        <li onclick="show()"><a href="#"><i class="fa-solid fa-cart-shopping"></i></a></li> 
-
-                    </ul>
-                    </ul>
-                 
-                
-              </div>
-            </div>
-          </nav>
-
-        
+                <li class="dropdown-item"><a href="shop.html">Shop</a></li>
+                <li class="dropdown-item"><a href="blog.html">Blog</a></li>
+                <li class="dropdown-item"><a href="about.html">About</a></li>
+                <li class="dropdown-item">
+                  <a href="contact.html">Contact</a>
+                </li>
+                <li onclick="show()">
+                  <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                </li>
+              </ul>
+            </ul>
+          </div>
+        </div>
+      </nav>
     </header>
 
-    <div class="contact-img " style="  background-image: url('./images/b1.jpg');">
-        <h1>#stay home</h1>
-        <p>Save more with coupn & upto 70% off </p>
+    <div class="contact-img" style="background-image: url('./images/b1.jpg')">
+      <h1>#stay home</h1>
+      <p>Save more with coupn & upto 70% off</p>
     </div>
     <div class="cart">
-     
-        
-     <!-- <button onclick="dell()">delete</button>   -->
+      <!-- <button onclick="dell()">delete</button>   -->
     </div>
 
-
-
-
     <!-- shirt 8 -->
-<section class="main">
-    <section class="shirt">
-        <div class="sub-shirt" >
-            <div class="img-shirt">
-                <img src="./images/f1.jpg">
-            </div>
-            <div class="text-shirt">
-                <p>Adidas</p>
-                <p>Cartoon Astron tshirt</p>
+    <section class="main">
+      <section class="shirt">
+        <div class="sub-shirt">
+          <div class="img-shirt">
+            <img src="./images/f1.jpg" />
+          </div>
+          <div class="text-shirt">
+            <p>Adidas</p>
+            <p>Cartoon Astron tshirt</p>
 
-                <span style="color:yellow"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                        class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                        class="fa-solid fa-star"></i></span>
-                <span class="right" onclick="add(1)"><i class="fa-solid fa-cart-shopping"></i></span><br>
-                <span class="rate">500Rs</span>
-
-            </div>
+            <span style="color: yellow"
+              ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star"></i
+            ></span>
+            <span class="right" onclick="add(1)"
+              ><i class="fa-solid fa-cart-shopping"></i></span
+            ><br />
+            <span class="rate">500Rs</span>
+          </div>
         </div>
         <div class="sub-shirt">
-            <div class="img-shirt">
-                <img src="./images/f2.jpg">
-            </div>
-            <div class="text-shirt">
-                <p>Adidas</p>
-                <p>Cartoon Astron tshirt</p>
+          <div class="img-shirt">
+            <img src="./images/f2.jpg" />
+          </div>
+          <div class="text-shirt">
+            <p>Adidas</p>
+            <p>Cartoon Astron tshirt</p>
 
-                <span style="color:yellow"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                        class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                        class="fa-solid fa-star"></i></span>
-                <span class="right" onclick="add(2)"><i class="fa-solid fa-cart-shopping"></i></span><br>
-                <span class="rate">500Rs</span>
-
-            </div>
+            <span style="color: yellow"
+              ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star"></i
+            ></span>
+            <span class="right" onclick="add(2)"
+              ><i class="fa-solid fa-cart-shopping"></i></span
+            ><br />
+            <span class="rate">400Rs</span>
+          </div>
         </div>
         <div class="sub-shirt">
-            <div class="img-shirt">
-                <img src="./images/f3.jpg">
-            </div>
-            <div class="text-shirt">
-                <p>Adidas</p>
-                <p>Cartoon Astron tshirt</p>
+          <div class="img-shirt">
+            <img src="./images/f3.jpg" />
+          </div>
+          <div class="text-shirt">
+            <p>Adidas</p>
+            <p>Cartoon Astron tshirt</p>
 
-                <span style="color:yellow"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                        class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                        class="fa-solid fa-star"></i></span>
-                <span class="right" onclick="add(3)"><i class="fa-solid fa-cart-shopping"></i></span><br>
-                <span class="rate">500Rs</span>
-
-            </div>
+            <span style="color: yellow"
+              ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star"></i
+            ></span>
+            <span class="right" onclick="add(3)"
+              ><i class="fa-solid fa-cart-shopping"></i></span
+            ><br />
+            <span class="rate">700Rs</span>
+          </div>
         </div>
         <div class="sub-shirt">
-            <div class="img-shirt">
-                <img src="./images/f4.jpg">
-            </div>
-            <div class="text-shirt">
-                <p>Adidas</p>
-                <p>Cartoon Astron tshirt</p>
+          <div class="img-shirt">
+            <img src="./images/f4.jpg" />
+          </div>
+          <div class="text-shirt">
+            <p>Adidas</p>
+            <p>Cartoon Astron tshirt</p>
 
-                <span style="color:yellow"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                        class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                        class="fa-solid fa-star"></i></span>
-                <span class="right" onclick="add(4)"><i class="fa-solid fa-cart-shopping"></i></span><br>
-                <span class="rate">500Rs</span>
-
-            </div>
+            <span style="color: yellow"
+              ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star"></i
+            ></span>
+            <span class="right" onclick="add(4)"
+              ><i class="fa-solid fa-cart-shopping"></i></span
+            ><br />
+            <span class="rate">800Rs</span>
+          </div>
         </div>
-    </section>
-    <section class="shirt">
+      </section>
+      <section class="shirt">
         <div class="sub-shirt">
-            <div class="img-shirt">
-                <img src="./images/f5.jpg">
-            </div>
-            <div class="text-shirt">
-                <p>Adidas</p>
-                <p>Cartoon Astron tshirt</p>
+          <div class="img-shirt">
+            <img src="./images/f5.jpg" />
+          </div>
+          <div class="text-shirt">
+            <p>Adidas</p>
+            <p>Cartoon Astron tshirt</p>
 
-                <span style="color:yellow"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                        class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                        class="fa-solid fa-star"></i></span>
-                <span class="right" onclick="add(5)"><i class="fa-solid fa-cart-shopping"></i></span><br>
-                <span class="rate">500Rs</span>
-
-            </div>
-        </div>
-        <div class="sub-shirt">
-            <div class="img-shirt">
-                <img src="./images/f6.jpg">
-            </div>
-            <div class="text-shirt">
-                <p>Adidas</p>
-                <p>Cartoon Astron tshirt</p>
-
-                <span style="color:yellow"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                        class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                        class="fa-solid fa-star"></i></span>
-                <span class="right" onclick="add(6)"><i class="fa-solid fa-cart-shopping"></i></span><br>
-                <span class="rate">500Rs</span>
-
-            </div>
+            <span style="color: yellow"
+              ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star"></i
+            ></span>
+            <span class="right" onclick="add(5)"
+              ><i class="fa-solid fa-cart-shopping"></i></span
+            ><br />
+            <span class="rate">100Rs</span>
+          </div>
         </div>
         <div class="sub-shirt">
-            <div class="img-shirt">
-                <img src="./images/f7.jpg">
-            </div>
-            <div class="text-shirt">
-                <p>Adidas</p>
-                <p>Cartoon Astron tshirt</p>
+          <div class="img-shirt">
+            <img src="./images/f6.jpg" />
+          </div>
+          <div class="text-shirt">
+            <p>Adidas</p>
+            <p>Cartoon Astron tshirt</p>
 
-                <span style="color:yellow"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                        class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                        class="fa-solid fa-star"></i></span>
-                <span class="right" onclick="add(7)"><i class="fa-solid fa-cart-shopping"></i></span><br>
-                <span class="rate">500Rs</span>
-
-            </div>
+            <span style="color: yellow"
+              ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star"></i
+            ></span>
+            <span class="right" onclick="add(6)"
+              ><i class="fa-solid fa-cart-shopping"></i></span
+            ><br />
+            <span class="rate">900Rs</span>
+          </div>
         </div>
         <div class="sub-shirt">
-            <div class="img-shirt">
-                <img src="./images/f8.jpg">
-            </div>
-            <div class="text-shirt">
-                <p>Adidas</p>
-                <p>Cartoon Astron tshirt</p>
+          <div class="img-shirt">
+            <img src="./images/f7.jpg" />
+          </div>
+          <div class="text-shirt">
+            <p>Adidas</p>
+            <p>Cartoon Astron tshirt</p>
 
-                <span style="color:yellow"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                        class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                        class="fa-solid fa-star"></i></span>
-                <span class="right" onclick="add(8)"><i class="fa-solid fa-cart-shopping"></i></span><br>
-                <span class="rate">500Rs</span>
-
-            </div>
-        </div>
-    </section>
-
-
-
-
-    <section class="shirt">
-        <div class="sub-shirt">
-            <div class="img-shirt">
-                <img src="./images/n1.jpg">
-            </div>
-            <div class="text-shirt">
-                <p>Adidas</p>
-                <p>Cartoon Astron tshirt</p>
-
-                <span style="color:yellow"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                        class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                        class="fa-solid fa-star"></i></span>
-                <span class="right" onclick="add(9)"><i class="fa-solid fa-cart-shopping"></i></span><br>
-                <span class="rate">500Rs</span>
-
-            </div>
+            <span style="color: yellow"
+              ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star"></i
+            ></span>
+            <span class="right" onclick="add(7)"
+              ><i class="fa-solid fa-cart-shopping"></i></span
+            ><br />
+            <span class="rate">500Rs</span>
+          </div>
         </div>
         <div class="sub-shirt">
-            <div class="img-shirt">
-                <img src="./images/n2.jpg">
-            </div>
-            <div class="text-shirt">
-                <p>Adidas</p>
-                <p>Cartoon Astron tshirt</p>
+          <div class="img-shirt">
+            <img src="./images/f8.jpg" />
+          </div>
+          <div class="text-shirt">
+            <p>Adidas</p>
+            <p>Cartoon Astron tshirt</p>
 
-                <span style="color:yellow"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                        class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                        class="fa-solid fa-star"></i></span>
-                <span class="right" onclick="add(10)"><i class="fa-solid fa-cart-shopping"></i></span><br>
-                <span class="rate">500Rs</span>
+            <span style="color: yellow"
+              ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star"></i
+            ></span>
+            <span class="right" onclick="add(8)"
+              ><i class="fa-solid fa-cart-shopping"></i></span
+            ><br />
+            <span class="rate">400Rs</span>
+          </div>
+        </div>
+      </section>
 
-            </div>
+      <section class="shirt">
+        <div class="sub-shirt">
+          <div class="img-shirt">
+            <img src="./images/n1.jpg" />
+          </div>
+          <div class="text-shirt">
+            <p>Adidas</p>
+            <p>Cartoon Astron tshirt</p>
+
+            <span style="color: yellow"
+              ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star"></i
+            ></span>
+            <span class="right" onclick="add(9)"
+              ><i class="fa-solid fa-cart-shopping"></i></span
+            ><br />
+            <span class="rate">600Rs</span>
+          </div>
         </div>
         <div class="sub-shirt">
-            <div class="img-shirt">
-                <img src="./images/n3.jpg">
-            </div>
-            <div class="text-shirt">
-                <p>Adidas</p>
-                <p>Cartoon Astron tshirt</p>
+          <div class="img-shirt">
+            <img src="./images/n2.jpg" />
+          </div>
+          <div class="text-shirt">
+            <p>Adidas</p>
+            <p>Cartoon Astron tshirt</p>
 
-                <span style="color:yellow"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                        class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                        class="fa-solid fa-star"></i></span>
-                <span class="right" onclick="add(11)"><i class="fa-solid fa-cart-shopping"></i></span><br>
-                <span class="rate">500Rs</span>
-
-            </div>
+            <span style="color: yellow"
+              ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star"></i
+            ></span>
+            <span class="right" onclick="add(10)"
+              ><i class="fa-solid fa-cart-shopping"></i></span
+            ><br />
+            <span class="rate">900Rs</span>
+          </div>
         </div>
         <div class="sub-shirt">
-            <div class="img-shirt">
-                <img src="./images/n4.jpg">
-            </div>
-            <div class="text-shirt">
-                <p>Adidas</p>
-                <p>Cartoon Astron tshirt</p>
+          <div class="img-shirt">
+            <img src="./images/n3.jpg" />
+          </div>
+          <div class="text-shirt">
+            <p>Adidas</p>
+            <p>Cartoon Astron tshirt</p>
 
-                <span style="color:yellow"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                        class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                        class="fa-solid fa-star"></i></span>
-                <span class="right" onclick="add(12)"><i class="fa-solid fa-cart-shopping"></i></span><br>
-                <span class="rate">500Rs</span>
-
-            </div>
-        </div>
-    </section>
-    <section class="shirt">
-        <div class="sub-shirt">
-            <div class="img-shirt">
-                <img src="./images/n5.jpg">
-            </div>
-            <div class="text-shirt">
-                <p>Adidas</p>
-                <p>Cartoon Astron tshirt</p>
-
-                <span style="color:yellow"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                        class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                        class="fa-solid fa-star"></i></span>
-                <span class="right" onclick="add(13)"><i class="fa-solid fa-cart-shopping"></i></span><br>
-                <span class="rate">500Rs</span>
-
-            </div>
+            <span style="color: yellow"
+              ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star"></i
+            ></span>
+            <span class="right" onclick="add(11)"
+              ><i class="fa-solid fa-cart-shopping"></i></span
+            ><br />
+            <span class="rate">100Rs</span>
+          </div>
         </div>
         <div class="sub-shirt">
-            <div class="img-shirt">
-                <img src="./images/n6.jpg">
-            </div>
-            <div class="text-shirt">
-                <p>Adidas</p>
-                <p>Cartoon Astron tshirt</p>
+          <div class="img-shirt">
+            <img src="./images/n4.jpg" />
+          </div>
+          <div class="text-shirt">
+            <p>Adidas</p>
+            <p>Cartoon Astron tshirt</p>
 
-                <span style="color:yellow"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                        class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                        class="fa-solid fa-star"></i></span>
-                <span class="right" onclick="add(14)"><i class="fa-solid fa-cart-shopping"></i></span><br>
-                <span class="rate">500Rs</span>
+            <span style="color: yellow"
+              ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star"></i
+            ></span>
+            <span class="right" onclick="add(12)"
+              ><i class="fa-solid fa-cart-shopping"></i></span
+            ><br />
+            <span class="rate">700Rs</span>
+          </div>
+        </div>
+      </section>
+      <section class="shirt">
+        <div class="sub-shirt">
+          <div class="img-shirt">
+            <img src="./images/n5.jpg" />
+          </div>
+          <div class="text-shirt">
+            <p>Adidas</p>
+            <p>Cartoon Astron tshirt</p>
 
-            </div>
+            <span style="color: yellow"
+              ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star"></i
+            ></span>
+            <span class="right" onclick="add(13)"
+              ><i class="fa-solid fa-cart-shopping"></i></span
+            ><br />
+            <span class="rate">800Rs</span>
+          </div>
         </div>
         <div class="sub-shirt">
-            <div class="img-shirt">
-                <img src="./images/n7.jpg">
-            </div>
-            <div class="text-shirt">
-                <p>Adidas</p>
-                <p>Cartoon Astron tshirt</p>
+          <div class="img-shirt">
+            <img src="./images/n6.jpg" />
+          </div>
+          <div class="text-shirt">
+            <p>Adidas</p>
+            <p>Cartoon Astron tshirt</p>
 
-                <span style="color:yellow"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                        class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                        class="fa-solid fa-star"></i></span>
-                <span class="right" onclick="add(15)"><i class="fa-solid fa-cart-shopping"></i></span><br>
-                <span class="rate">500Rs</span>
-
-            </div>
+            <span style="color: yellow"
+              ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star"></i
+            ></span>
+            <span class="right" onclick="add(14)"
+              ><i class="fa-solid fa-cart-shopping"></i></span
+            ><br />
+            <span class="rate">600Rs</span>
+          </div>
         </div>
         <div class="sub-shirt">
-            <div class="img-shirt">
-                <img src="./images/n8.jpg">
-            </div>
-            <div class="text-shirt">
-                <p>Adidas</p>
-                <p>Cartoon Astron tshirt</p>
+          <div class="img-shirt">
+            <img src="./images/n7.jpg" />
+          </div>
+          <div class="text-shirt">
+            <p>Adidas</p>
+            <p>Cartoon Astron tshirt</p>
 
-                <span style="color:yellow"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                        class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                        class="fa-solid fa-star"></i></span>
-                <span class="right" onclick="add(16)"><i class="fa-solid fa-cart-shopping"></i></span><br>
-                <span class="rate">500Rs</span>
-            </div>
+            <span style="color: yellow"
+              ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star"></i
+            ></span>
+            <span class="right" onclick="add(15)"
+              ><i class="fa-solid fa-cart-shopping"></i></span
+            ><br />
+            <span class="rate">200Rs</span>
+          </div>
         </div>
-    </section>
-    </section>
+        <!-- <div class="sub-shirt">
+          <div class="img-shirt">
+            <img src="./images/n8.jpg" />
+          </div>
+          <div class="text-shirt">
+            <p>Adidas</p>
+            <p>Cartoon Astron tshirt</p>
 
- <!-- next -->
-  <section class="main hide">
-    <section class="shirt ">
-        <div class="sub-shirt" >
-            <div class="img-shirt">
-                <img src="./images/f1.jpg">
-            </div>
-            <div class="text-shirt">
-                <p>Adidas</p>
-                <p>Cartoon Astron tshirt</p>
-
-                <span style="color:yellow"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                        class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                        class="fa-solid fa-star"></i></span>
-                <span class="right" onclick="add(1)"><i class="fa-solid fa-cart-shopping"></i></span><br>
-                <span class="rate">5000Rs</span>
-
-            </div>
-        </div>
-        <div class="sub-shirt">
-            <div class="img-shirt">
-                <img src="./images/f2.jpg">
-            </div>
-            <div class="text-shirt">
-                <p>Adidas</p>
-                <p>Cartoon Astron tshirt</p>
-
-                <span style="color:yellow"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                        class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                        class="fa-solid fa-star"></i></span>
-                <span class="right" onclick="add(2)"><i class="fa-solid fa-cart-shopping"></i></span><br>
-                <span class="rate">5000Rs</span>
-
-            </div>
-        </div>
-        <div class="sub-shirt">
-            <div class="img-shirt">
-                <img src="./images/f3.jpg">
-            </div>
-            <div class="text-shirt">
-                <p>Adidas</p>
-                <p>Cartoon Astron tshirt</p>
-
-                <span style="color:yellow"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                        class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                        class="fa-solid fa-star"></i></span>
-                <span class="right" onclick="add(3)"><i class="fa-solid fa-cart-shopping"></i></span><br>
-                <span class="rate">5000Rs</span>
-
-            </div>
-        </div>
-        <div class="sub-shirt">
-            <div class="img-shirt">
-                <img src="./images/f4.jpg">
-            </div>
-            <div class="text-shirt">
-                <p>Adidas</p>
-                <p>Cartoon Astron tshirt</p>
-
-                <span style="color:yellow"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                        class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                        class="fa-solid fa-star"></i></span>
-                <span class="right" onclick="add(4)"><i class="fa-solid fa-cart-shopping"></i></span><br>
-                <span class="rate">5000Rs</span>
-
-            </div>
-        </div>
-    </section>
-    <section class="shirt">
-        <div class="sub-shirt">
-            <div class="img-shirt">
-                <img src="./images/f5.jpg">
-            </div>
-            <div class="text-shirt">
-                <p>Adidas</p>
-                <p>Cartoon Astron tshirt</p>
-
-                <span style="color:yellow"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                        class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                        class="fa-solid fa-star"></i></span>
-                <span class="right" onclick="add(5)"><i class="fa-solid fa-cart-shopping"></i></span><br>
-                <span class="rate">5000Rs</span>
-
-            </div>
-        </div>
-        <div class="sub-shirt">
-            <div class="img-shirt">
-                <img src="./images/f6.jpg">
-            </div>
-            <div class="text-shirt">
-                <p>Adidas</p>
-                <p>Cartoon Astron tshirt</p>
-
-                <span style="color:yellow"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                        class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                        class="fa-solid fa-star"></i></span>
-                <span class="right" onclick="add(6)"><i class="fa-solid fa-cart-shopping"></i></span><br>
-                <span class="rate">5000Rs</span>
-
-            </div>
-        </div>
-        <div class="sub-shirt">
-            <div class="img-shirt">
-                <img src="./images/f7.jpg">
-            </div>
-            <div class="text-shirt">
-                <p>Adidas</p>
-                <p>Cartoon Astron tshirt</p>
-
-                <span style="color:yellow"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                        class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                        class="fa-solid fa-star"></i></span>
-                <span class="right" onclick="add(7)"><i class="fa-solid fa-cart-shopping"></i></span><br>
-                <span class="rate">5000Rs</span>
-
-            </div>
-        </div>
-        <div class="sub-shirt">
-            <div class="img-shirt">
-                <img src="./images/f8.jpg">
-            </div>
-            <div class="text-shirt">
-                <p>Adidas</p>
-                <p>Cartoon Astron tshirt</p>
-
-                <span style="color:yellow"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                        class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                        class="fa-solid fa-star"></i></span>
-                <span class="right" onclick="add(8)"><i class="fa-solid fa-cart-shopping"></i></span><br>
-                <span class="rate">5000Rs</span>
-
-            </div>
-        </div>
+            <span style="color: yellow"
+              ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star"></i
+            ></span>
+            <span class="right" onclick="add(16)"
+              ><i class="fa-solid fa-cart-shopping"></i></span
+            ><br />
+            <span class="rate">200Rs</span>
+          </div>
+        </div> -->
+      </section>
     </section>
 
-
-
-
-    <section class="shirt">
+    <!-- next -->
+    <section class="main hide">
+      <section class="shirt">
         <div class="sub-shirt">
-            <div class="img-shirt">
-                <img src="./images/n1.jpg">
-            </div>
-            <div class="text-shirt">
-                <p>Adidas</p>
-                <p>Cartoon Astron tshirt</p>
+          <div class="img-shirt">
+            <img src="./images/f1.jpg" />
+          </div>
+          <div class="text-shirt">
+            <p>Adidas</p>
+            <p>Cartoon Astron tshirt</p>
 
-                <span style="color:yellow"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                        class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                        class="fa-solid fa-star"></i></span>
-                <span class="right" onclick="add(9)"><i class="fa-solid fa-cart-shopping"></i></span><br>
-                <span class="rate">5000Rs</span>
-
-            </div>
+            <span style="color: yellow"
+              ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star"></i
+            ></span>
+            <span class="right" onclick="add(1)"
+              ><i class="fa-solid fa-cart-shopping"></i></span
+            ><br />
+            <span class="rate">5000Rs</span>
+          </div>
         </div>
         <div class="sub-shirt">
-            <div class="img-shirt">
-                <img src="./images/n2.jpg">
-            </div>
-            <div class="text-shirt">
-                <p>Adidas</p>
-                <p>Cartoon Astron tshirt</p>
+          <div class="img-shirt">
+            <img src="./images/f2.jpg" />
+          </div>
+          <div class="text-shirt">
+            <p>Adidas</p>
+            <p>Cartoon Astron tshirt</p>
 
-                <span style="color:yellow"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                        class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                        class="fa-solid fa-star"></i></span>
-                <span class="right" onclick="add(10)"><i class="fa-solid fa-cart-shopping"></i></span><br>
-                <span class="rate">5000Rs</span>
-
-            </div>
+            <span style="color: yellow"
+              ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star"></i
+            ></span>
+            <span class="right" onclick="add(2)"
+              ><i class="fa-solid fa-cart-shopping"></i></span
+            ><br />
+            <span class="rate">5000Rs</span>
+          </div>
         </div>
         <div class="sub-shirt">
-            <div class="img-shirt">
-                <img src="./images/n3.jpg">
-            </div>
-            <div class="text-shirt">
-                <p>Adidas</p>
-                <p>Cartoon Astron tshirt</p>
+          <div class="img-shirt">
+            <img src="./images/f3.jpg" />
+          </div>
+          <div class="text-shirt">
+            <p>Adidas</p>
+            <p>Cartoon Astron tshirt</p>
 
-                <span style="color:yellow"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                        class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                        class="fa-solid fa-star"></i></span>
-                <span class="right" onclick="add(11)"><i class="fa-solid fa-cart-shopping"></i></span><br>
-                <span class="rate">5000Rs</span>
-
-            </div>
+            <span style="color: yellow"
+              ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star"></i
+            ></span>
+            <span class="right" onclick="add(3)"
+              ><i class="fa-solid fa-cart-shopping"></i></span
+            ><br />
+            <span class="rate">5000Rs</span>
+          </div>
         </div>
         <div class="sub-shirt">
-            <div class="img-shirt">
-                <img src="./images/n4.jpg">
-            </div>
-            <div class="text-shirt">
-                <p>Adidas</p>
-                <p>Cartoon Astron tshirt</p>
+          <div class="img-shirt">
+            <img src="./images/f4.jpg" />
+          </div>
+          <div class="text-shirt">
+            <p>Adidas</p>
+            <p>Cartoon Astron tshirt</p>
 
-                <span style="color:yellow"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                        class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                        class="fa-solid fa-star"></i></span>
-                <span class="right" onclick="add(12)"><i class="fa-solid fa-cart-shopping"></i></span><br>
-                <span class="rate">5000Rs</span>
-
-            </div>
+            <span style="color: yellow"
+              ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star"></i
+            ></span>
+            <span class="right" onclick="add(4)"
+              ><i class="fa-solid fa-cart-shopping"></i></span
+            ><br />
+            <span class="rate">5000Rs</span>
+          </div>
         </div>
-    </section>
-    <section class="shirt">
+      </section>
+      <section class="shirt">
         <div class="sub-shirt">
-            <div class="img-shirt">
-                <img src="./images/n5.jpg">
-            </div>
-            <div class="text-shirt">
-                <p>Adidas</p>
-                <p>Cartoon Astron tshirt</p>
+          <div class="img-shirt">
+            <img src="./images/f5.jpg" />
+          </div>
+          <div class="text-shirt">
+            <p>Adidas</p>
+            <p>Cartoon Astron tshirt</p>
 
-                <span style="color:yellow"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                        class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                        class="fa-solid fa-star"></i></span>
-                <span class="right" onclick="add(13)"><i class="fa-solid fa-cart-shopping"></i></span><br>
-                <span class="rate">5000Rs</span>
-
-            </div>
-        </div>
-        <div class="sub-shirt">
-            <div class="img-shirt">
-                <img src="./images/n6.jpg">
-            </div>
-            <div class="text-shirt">
-                <p>Adidas</p>
-                <p>Cartoon Astron tshirt</p>
-
-                <span style="color:yellow"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                        class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                        class="fa-solid fa-star"></i></span>
-                <span class="right" onclick="add(14)"><i class="fa-solid fa-cart-shopping"></i></span><br>
-                <span class="rate">5000Rs</span>
-
-            </div>
+            <span style="color: yellow"
+              ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star"></i
+            ></span>
+            <span class="right" onclick="add(5)"
+              ><i class="fa-solid fa-cart-shopping"></i></span
+            ><br />
+            <span class="rate">5000Rs</span>
+          </div>
         </div>
         <div class="sub-shirt">
-            <div class="img-shirt">
-                <img src="./images/n7.jpg">
-            </div>
-            <div class="text-shirt">
-                <p>Adidas</p>
-                <p>Cartoon Astron tshirt</p>
+          <div class="img-shirt">
+            <img src="./images/f6.jpg" />
+          </div>
+          <div class="text-shirt">
+            <p>Adidas</p>
+            <p>Cartoon Astron tshirt</p>
 
-                <span style="color:yellow"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                        class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                        class="fa-solid fa-star"></i></span>
-                <span class="right" onclick="add(15)"><i class="fa-solid fa-cart-shopping"></i></span><br>
-                <span class="rate">5000Rs</span>
-
-            </div>
+            <span style="color: yellow"
+              ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star"></i
+            ></span>
+            <span class="right" onclick="add(6)"
+              ><i class="fa-solid fa-cart-shopping"></i></span
+            ><br />
+            <span class="rate">5000Rs</span>
+          </div>
         </div>
         <div class="sub-shirt">
-            <div class="img-shirt">
-                <img src="./images/n8.jpg">
-            </div>
-            <div class="text-shirt">
-                <p>Adidas</p>
-                <p>Cartoon Astron tshirt</p>
+          <div class="img-shirt">
+            <img src="./images/f7.jpg" />
+          </div>
+          <div class="text-shirt">
+            <p>Adidas</p>
+            <p>Cartoon Astron tshirt</p>
 
-                <span style="color:yellow"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                        class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                        class="fa-solid fa-star"></i></span>
-                <span class="right" onclick="add(16)"><i class="fa-solid fa-cart-shopping"></i></span><br>
-                <span class="rate">5000Rs</span>
-            </div>
+            <span style="color: yellow"
+              ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star"></i
+            ></span>
+            <span class="right" onclick="add(7)"
+              ><i class="fa-solid fa-cart-shopping"></i></span
+            ><br />
+            <span class="rate">5000Rs</span>
+          </div>
         </div>
-    </section>
+        <div class="sub-shirt">
+          <div class="img-shirt">
+            <img src="./images/f8.jpg" />
+          </div>
+          <div class="text-shirt">
+            <p>Adidas</p>
+            <p>Cartoon Astron tshirt</p>
+
+            <span style="color: yellow"
+              ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star"></i
+            ></span>
+            <span class="right" onclick="add(8)"
+              ><i class="fa-solid fa-cart-shopping"></i></span
+            ><br />
+            <span class="rate">5000Rs</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="shirt">
+        <div class="sub-shirt">
+          <div class="img-shirt">
+            <img src="./images/n1.jpg" />
+          </div>
+          <div class="text-shirt">
+            <p>Adidas</p>
+            <p>Cartoon Astron tshirt</p>
+
+            <span style="color: yellow"
+              ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star"></i
+            ></span>
+            <span class="right" onclick="add(9)"
+              ><i class="fa-solid fa-cart-shopping"></i></span
+            ><br />
+            <span class="rate">5000Rs</span>
+          </div>
+        </div>
+        <div class="sub-shirt">
+          <div class="img-shirt">
+            <img src="./images/n2.jpg" />
+          </div>
+          <div class="text-shirt">
+            <p>Adidas</p>
+            <p>Cartoon Astron tshirt</p>
+
+            <span style="color: yellow"
+              ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star"></i
+            ></span>
+            <span class="right" onclick="add(10)"
+              ><i class="fa-solid fa-cart-shopping"></i></span
+            ><br />
+            <span class="rate">5000Rs</span>
+          </div>
+        </div>
+        <div class="sub-shirt">
+          <div class="img-shirt">
+            <img src="./images/n3.jpg" />
+          </div>
+          <div class="text-shirt">
+            <p>Adidas</p>
+            <p>Cartoon Astron tshirt</p>
+
+            <span style="color: yellow"
+              ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star"></i
+            ></span>
+            <span class="right" onclick="add(11)"
+              ><i class="fa-solid fa-cart-shopping"></i></span
+            ><br />
+            <span class="rate">5000Rs</span>
+          </div>
+        </div>
+        <div class="sub-shirt">
+          <div class="img-shirt">
+            <img src="./images/n4.jpg" />
+          </div>
+          <div class="text-shirt">
+            <p>Adidas</p>
+            <p>Cartoon Astron tshirt</p>
+
+            <span style="color: yellow"
+              ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star"></i
+            ></span>
+            <span class="right" onclick="add(12)"
+              ><i class="fa-solid fa-cart-shopping"></i></span
+            ><br />
+            <span class="rate">5000Rs</span>
+          </div>
+        </div>
+      </section>
+      <section class="shirt">
+        <div class="sub-shirt">
+          <div class="img-shirt">
+            <img src="./images/n5.jpg" />
+          </div>
+          <div class="text-shirt">
+            <p>Adidas</p>
+            <p>Cartoon Astron tshirt</p>
+
+            <span style="color: yellow"
+              ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star"></i
+            ></span>
+            <span class="right" onclick="add(13)"
+              ><i class="fa-solid fa-cart-shopping"></i></span
+            ><br />
+            <span class="rate">5000Rs</span>
+          </div>
+        </div>
+        <div class="sub-shirt">
+          <div class="img-shirt">
+            <img src="./images/n6.jpg" />
+          </div>
+          <div class="text-shirt">
+            <p>Adidas</p>
+            <p>Cartoon Astron tshirt</p>
+
+            <span style="color: yellow"
+              ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star"></i
+            ></span>
+            <span class="right" onclick="add(14)"
+              ><i class="fa-solid fa-cart-shopping"></i></span
+            ><br />
+            <span class="rate">5000Rs</span>
+          </div>
+        </div>
+        <div class="sub-shirt">
+          <div class="img-shirt">
+            <img src="./images/n7.jpg" />
+          </div>
+          <div class="text-shirt">
+            <p>Adidas</p>
+            <p>Cartoon Astron tshirt</p>
+
+            <span style="color: yellow"
+              ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star"></i
+            ></span>
+            <span class="right" onclick="add(15)"
+              ><i class="fa-solid fa-cart-shopping"></i></span
+            ><br />
+            <span class="rate">5000Rs</span>
+          </div>
+        </div>
+        <div class="sub-shirt">
+          <div class="img-shirt">
+            <img src="./images/n8.jpg" />
+          </div>
+          <div class="text-shirt">
+            <p>Adidas</p>
+            <p>Cartoon Astron tshirt</p>
+
+            <span style="color: yellow"
+              ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star"></i
+            ></span>
+            <span class="right" onclick="add(16)"
+              ><i class="fa-solid fa-cart-shopping"></i></span
+            ><br />
+            <span class="rate">5000Rs</span>
+          </div>
+        </div>
+      </section>
     </section>
     <div class="btn-cntr">
-        <button class="for-cntr" onclick="shopShow1()">1</button>
-        <button class="for-cntr" onclick="shopShow()">2</button>
-        <!-- <button class="for-cntr">></button> -->
+      <button class="for-cntr" onclick="shopShow1()">1</button>
+      <button class="for-cntr" onclick="shopShow()">2</button>
+      <!-- <button class="for-cntr">></button> -->
     </div>
 
     <div class="signup">
-        <div class="flex">
-            <h1>Sign up for Newsletter</h1>
-            <span>Get Email-update about out latest shop and </span><span style="color:gold">special offer</span>
-        </div>
-        <div class="signup-mail">
-            <input type="email" placeholder="enter your mail">
-            <button>Sign up</button>
-        </div>
+      <div class="flex">
+        <h1>Sign up for Newsletter</h1>
+        <span>Get Email-update about out latest shop and </span
+        ><span style="color: gold">special offer</span>
+      </div>
+      <div class="signup-mail">
+        <input type="email" placeholder="enter your mail" />
+        <button>Sign up</button>
+      </div>
     </div>
 
-
     <footer>
-        <div class="upper-footer">
-            <div class="uf-1 scr">
-
-                <img src="./images/logo.png">
-                <h2>Contact</h2>
-                <li>
-                    <span class="f-font">Address : </span><span>thalabair,pokhari,chamoli,uttarakhand</span>
-                </li>
-                <li>
-                    <span class="f-font">Phone-No :</span><span>91+7895418589,91+9639249425</span>
-                </li>
-                <li>
-                    <span class="f-font">Hours : </span><span>10Am-5pm,Mon-Sut</span>
-                </li>
-                <h2 class="f-font">Follow us</h2>
-                <span><i class="fa-brands fa-facebook"></i><i class="fa-brands fa-instagram"></i>
-                    <i class="fa-brands fa-youtube"></i><i class="fa-brands fa-twitter"></i></span>
-            </div>
-
-            <div class="uf-1">
-                <h2 style="font-weight:800;">About</h2>
-                <li><a href="#">About us</a></li>
-                <li><a href="#">Dileavery information</a></li>
-                <li><a href="#">privacy policy</a></li>
-                <li><a href="#">Term$condition</a></li>
-                <li><a href="contact.html">Contact us</a></li>
-
-            </div>
-            <div class="uf-1 mrg">
-                <h2 style="font-weight:800;">My Account</h2>
-                <li><a href="#">Sign in </a></li>
-                <li><a href="#">view cart</a></li>
-                <li><a href="#">my wishlist</a></li>
-                <li><a href="#">Track my order</a></li>
-                <li><a href="#">help</a></li>
-
-
-            </div>
-            <div class="uf-1 mrg2">
-                <h2 style="font-weight:800;">Install App</h2>
-                <span class="marg">from app store or google play</span><br>
-                <img src="./images/play.jpg" class="bdr"><img src="./images/app.jpg" class="bdr"><br>
-                <span class="marg">secured payment gateway</span><br>
-                <img src="./images/pay.png">
-
-            </div>
+      <div class="upper-footer">
+        <div class="uf-1 scr">
+          <img src="./images/logo.png" />
+          <h2>Contact</h2>
+          <li>
+            <span class="f-font">Address : </span
+            ><span>thalabair,pokhari,chamoli,uttarakhand</span>
+          </li>
+          <li>
+            <span class="f-font">Phone-No :</span
+            ><span>91+7895418589,91+9639249425</span>
+          </li>
+          <li>
+            <span class="f-font">Hours : </span><span>10Am-5pm,Mon-Sut</span>
+          </li>
+          <h2 class="f-font">Follow us</h2>
+          <span
+            ><i class="fa-brands fa-facebook"></i
+            ><i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-youtube"></i
+            ><i class="fa-brands fa-twitter"></i
+          ></span>
         </div>
-        <div class="down-footer">
-            all copy right reserved by @ rohit Negi
+
+        <div class="uf-1">
+          <h2 style="font-weight: 800">About</h2>
+          <li><a href="#">About us</a></li>
+          <li><a href="#">Dileavery information</a></li>
+          <li><a href="#">privacy policy</a></li>
+          <li><a href="#">Term$condition</a></li>
+          <li><a href="contact.html">Contact us</a></li>
         </div>
+        <div class="uf-1 mrg">
+          <h2 style="font-weight: 800">My Account</h2>
+          <li><a href="#">Sign in </a></li>
+          <li><a href="#">view cart</a></li>
+          <li><a href="#">my wishlist</a></li>
+          <li><a href="#">Track my order</a></li>
+          <li><a href="#">help</a></li>
+        </div>
+        <div class="uf-1 mrg2">
+          <h2 style="font-weight: 800">Install App</h2>
+          <span class="marg">from app store or google play</span><br />
+          <img src="./images/play.jpg" class="bdr" /><img
+            src="./images/app.jpg"
+            class="bdr"
+          /><br />
+          <span class="marg">secured payment gateway</span><br />
+          <img src="./images/pay.png" />
+        </div>
+      </div>
+      <div class="down-footer">all copy right reserved by @ rohit Negi</div>
     </footer>
-
-
-
-
-
-
-</body>
-
+  </body>
 </html>
